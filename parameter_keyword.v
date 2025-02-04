@@ -1,32 +1,3 @@
-/*module parameter_keyword(data_in, data_out);
-
-parameter n = 3;
-parameter m = 3;
-
-input [n-1:0] data_in;
-output  reg [m-1:0] data_out;
-
-always@(*)
-begin
-data_out = data_in;  // Added logic inside the module
-end
-
-endmodule
-
-
-module example(input_data, output_data);
-
-parameter p = 6;
-parameter q = 6;
-
-input [p-1:0] input_data;
-output [q-1:0] output_data;
-
-// Instantiating parameter_keyword with parameter overriding
-parameter_keyword #(.n(6), .m(6)) DUT (.data_in(input_data), .data_out(output_data));
-
-endmodule*/
-
 module parameter_keyword_rtl(clk,data_in,data_out,wr_addr,rd_addr);
 
 parameter n=4,m=4,wr=4,rd=4;
