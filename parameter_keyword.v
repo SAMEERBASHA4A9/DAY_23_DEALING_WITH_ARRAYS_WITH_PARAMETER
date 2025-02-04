@@ -36,10 +36,4 @@ parameter_keyword_rtl#(.n(6),.m(32),.wr(5),.rd(5)) OVRR (.clk(clk),.data_in(data
 
 endmodule
 
-/*module connection(input wire [5:0]w2);
-
-parameter_overriding CONNECTION (.data_out(w2),.wier(w2));
-
-endmodule*/
-
 
